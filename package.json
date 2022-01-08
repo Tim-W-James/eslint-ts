@@ -5,7 +5,6 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "execute": "npx ts-node src/main.ts",
     "lint": "eslint",
     "test": "jest"
   },
