@@ -6,22 +6,23 @@
 *** Find a list of resources for writing markdown, etc. at the end of this file.
 -->
 
-<!-- TODO - README.md
+Complete the configuration checklist below and remove from the README once complete.
+
+## TODO - `README.md`
 
 * [ ] Specify the following fields with a search and replace:
   repo_name, project_title, project_description
-* [ ] Replace personal information with your own: 
+* [ ] Replace personal information with your own:
   Tim-W-James, tim.jameswork9800@gmail.com, https://linkedin.com/in/timothy-william-james/
 
 * [ ] Fill out each section of the README as needed, uncommenting/removing sections as needed.
 
 * [ ] Add images for the following:
-  images/logo.png, images/screenshot.png 
+  images/logo.png, images/screenshot.png
   
-* [ ] Specify the LICENSE.txt for the project 
--->
+* [ ] Specify the LICENSE.txt for the project
 
-<!-- TODO - package.json, tsconfig.json, .eslintrc.json
+## TODO - `package.json`, `tsconfig.json`, `.eslintrc.json`
 
 * [ ] Specify the following fields with a search and replace:
   repo_name, project_title, project_description, project_keywords
@@ -32,13 +33,15 @@
     * Add to `package.json`: `"type": "module"`
     * Add to `tsconfig.json`: `"module": "es2015"`
     * Add to `.eslintrc.json`: `"parserOptions": { "sourceType": "module" }`
-  
   * Node CommonJS (require, exports):
     * Add to `package.json`: `"type": "commonjs"`
     * Add to `tsconfig.json`: `"module": "commonjs"`
-* [ ] Set the target for tsc: ES6 (supported by most browsers), ESNext (latest)
+* [ ] Set the target ES version (ES6 - supported by most browsers, ESNext - latest):
+  * `.eslint.json`: `"<target>": true`
+  * `tsconfig.json`: `"<target>": "es6"`
+* [ ] Do you want to commit package-lock? Edit the `.gitignore`
 * [ ] Finally, run: `npm install`
--->
+
 
 <!-- PROJECT SHIELDS -->
 <!-- [![Release][release-shield]][release-url] -->
