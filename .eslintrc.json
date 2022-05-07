@@ -1,25 +1,26 @@
 {
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
-    "project": "./tsconfig.json"
+    "project": "./tsconfig.json",
+    "sourceType": "module",
+    "ecmaVersion": "latest",
+    "ecmaFeatures": {
+      "impliedStrict": true,
+      "globalReturn": false
+    }
   },
   "env": {
     "browser": true,
-    "es6": true,
     "node": true
   },
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:sonarjs/recommended",
-    "plugin:prettier/recommended"
+    "plugin:prettier/recommended",
+    "./.eslintrc-auto-import.json"
   ],
-  "plugins": [
-    "@typescript-eslint",
-    "sonarjs",
-    "prettier",
-    "vitest"
-  ],
+  "plugins": ["@typescript-eslint", "sonarjs", "prettier", "vitest"],
   "ignorePatterns": ["/*.*"],
   "rules": {
     "@typescript-eslint/quotes": "off",
