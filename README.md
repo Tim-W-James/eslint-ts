@@ -1,4 +1,4 @@
-Complete the configuration checklist below and remove from the README once complete.
+## Frontend TS Template
 
 ### Template includes:
 
@@ -22,6 +22,8 @@ Complete the configuration checklist below and remove from the README once compl
 * Source code: `./src`
 * Tests: `./tests`
 * Types: `./types`
+
+Complete the configuration checklist below and remove from the README once complete.
 
 ## TODO - `README.md`
 
@@ -96,9 +98,9 @@ Complete the configuration checklist below and remove from the README once compl
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-<!--   <a href="https://github.com/Tim-W-James/repo_name">
+  <a href="https://github.com/Tim-W-James/repo_name">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a> -->
+  </a>
 
   <h2 align="center">project_title</h2>
 
@@ -151,8 +153,7 @@ Complete the configuration checklist below and remove from the README once compl
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
-<!-- <img src="screenshot.png" alt="screenshot" width="500"/> -->
+[![repo_name Screen Shot][product-screenshot]](https://example.com)
 
 About text.
 
