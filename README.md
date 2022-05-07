@@ -10,11 +10,11 @@ Complete the configuration checklist below and remove from the README once compl
 * [unplugin-auto-import](https://github.com/antfu/unplugin-auto-import#configuration): global imports, configured in `./vite.config.ts` > Plugins > AutoImport
 * npm scripts (run with `npm run <script>`):
   * `dev` - starts a dev environment on localhost that will reload as files change
-  * `build` - compile prod source code to `dist`
+  * `build` - compile prod source code to `./dist`
   * `preview` - after build, preview on localhost
   * `test:run` - run tests
   * `test:ui` - run tests and display on localhost
-  * `test` - run unit tests located in `tests` that will reload whenever files change
+  * `test` - run unit tests located in `./tests` that will reload whenever files change
   * `coverage` - run coverage tests and output results to `./coverage`
 
 ### Project structure:
@@ -55,15 +55,15 @@ Complete the configuration checklist below and remove from the README once compl
     * Add to `tsconfig.json`: `"module": "commonjs"`
     * Add to `.eslintrc.json`: `"parserOptions": { "sourceType": "script" }` -->
 * [ ] Set the target ES version (ES6 - supported by most browsers, ESNext - latest):
-  * `.eslint.json`:
+  * `./.eslint.json`:
     * `"<target>": true`
     * `"ecmaVersion": <target>`
-  * `tsconfig.json`:
+  * `./tsconfig.json`:
     * `"target": "<target>"`
     * `"module": "<target>"`
     * `"lib": ["<target>", "DOM"]`
 * [ ] Add any [global imports](https://github.com/antfu/unplugin-auto-import#configuration) to `vite.config.ts` > Plugins > AutoImport
-* [ ] Do you want to commit package-lock? If yes, remove it from the `.gitignore`
+* [ ] Do you want to commit package-lock? If yes, remove it from the `./.gitignore`
 * [ ] Run: `npm i`
 * [ ] Finally, remove/modify the sample code:
   * `./src/main.ts`
