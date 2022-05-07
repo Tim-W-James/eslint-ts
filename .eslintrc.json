@@ -11,9 +11,15 @@
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
+    "plugin:sonarjs/recommended",
     "plugin:prettier/recommended"
   ],
-  "plugins": ["@typescript-eslint", "prettier", "vite", "vitest"],
+  "plugins": [
+    "@typescript-eslint",
+    "sonarjs",
+    "prettier",
+    "vitest"
+  ],
   "ignorePatterns": ["/*.*"],
   "rules": {
     "@typescript-eslint/quotes": "off",

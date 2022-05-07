@@ -7,7 +7,7 @@ export default defineConfig({
   // https://github.com/vitest-dev/vitest
   plugins: [eslintPlugin(), tsconfigPaths()],
   test: {
-    include: ['test/**/*.test.ts'],
+    include: ['test*/**/*.test.ts'],
     environment: 'node',
   },
 })
