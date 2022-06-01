@@ -1,8 +1,8 @@
 /// <reference types="vitest" />
-import { defineConfig } from "vite";
-import tsconfigPaths from "vite-tsconfig-paths";
-import eslintPlugin from "vite-plugin-eslint";
 import AutoImport from "unplugin-auto-import/vite";
+import { defineConfig } from "vite";
+import eslintPlugin from "vite-plugin-eslint";
+import tsconfigPaths from "vite-tsconfig-paths";
 
 export default defineConfig({
   // https://github.com/vitest-dev/vitest
