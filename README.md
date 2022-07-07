@@ -1,3 +1,7 @@
+# [Please use the updated template for React](https://github.com/Tim-W-James/react-ts-template)
+
+<br />
+
 ## Frontend TS Template
 
 ### Template includes:
